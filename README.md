@@ -7,14 +7,23 @@ A lightweight, real-time social platform built with Flutter & Supabase, featurin
 Mini SocialMedia App is a modern, feature-rich mobile application where users can:
 
 ✔️ Create an account & login securely
+
 ✔️ Post photos with captions
+
 ✔️ View posts from other users (Feed)
+
 ✔️ Like, comment, and save posts
+
 ✔️ Follow/unfollow users
+
 ✔️ View real-time followers and following list
+
 ✔️ See public profiles and post counts
+
 ✔️ Record and view stories that disappear (24H concept)
+
 ✔️ Chat in real-time with other users
+
 ✔️ Edit profile — avatar, bio, username
 
 All powered by Flutter, Supabase, Riverpod, and GoRouter.
@@ -128,5 +137,7 @@ and a scalable mobile app architecture — perfect for learning & showcasing pro
 ### 👨‍💻 Author
 
 Sri Harsha Amma
+
 📧 Email: sriharshaamma5@gmail.com
+
 🔗 GitHub: https://github.com/SriharshaAmma
