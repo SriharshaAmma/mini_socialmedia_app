@@ -1,0 +1,41 @@
+
+# Don't want to expose your supabase credentials? you have two options
+# 1. Use a .env file to specify SUPABASE_URL and SUPABASE_API_KEY
+# 2. Specify --url and --key in the CLI (ex. supadart -u <url> -k <key>)
+SUPABASE_URL: https://vupaefcmaekoblnngizc.supabase.co
+SUPABASE_API_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ1cGFlZmNtYWVrb2Jsbm5naXpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQxNDk3NDIsImV4cCI6MjA3OTcyNTc0Mn0.G-GANVrLl8IH1OVgNJt7ig3AtddJO1th2rKe3G-NPOA
+
+
+# Enums in your database? map them here (Case Sensitive)
+# Please take a look at the documentation to see how to work with enums
+enums:
+  # mood: [happy, sad, neutral, excited, angry]
+
+# Optional, where to place the generated classes files default: ./lib/models/
+output: lib/models/
+# Set to true, if you want to generate separated files for each classes
+separated: false
+# Set to true, if you are not using Flutter, just normal Dart project
+dart: false
+
+# Optional, used to map table names to class names(case-sensitive)
+mappings:
+  # books: book
+  # categories: category
+  # children: child
+  # people: person
+
+# Optional, used to exclude methods from generated classes, comment out to include them
+exclude:
+  # - toJson
+  - copyWith
+  - New
+
+# Optional, enables support for PostGIS types
+# Requires the geobase package
+postGIS: false
+
+# Optional, map jsonb fields to dynamic instead of Map<String, dynamic>
+# Set to true to enable (default: false)
+jsonbToDynamic: false
+
